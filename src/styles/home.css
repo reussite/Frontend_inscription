@@ -1,0 +1,53 @@
+.home {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0; 
+}
+.home-title {
+  color: green;
+  
+}
+.home-header {
+  background-image: url('../assets/image1.jpg'); 
+  background-size: cover;
+  color: white;
+  padding: 50px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.home-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; 
+}
+
+.card:hover img {
+  transform: scale(1.1); 
+}
+
+.card h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.card p {
+  padding: 0 10px 10px;
+  color: #333;
+}
